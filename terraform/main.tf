@@ -11,7 +11,9 @@ terraform {
 
 provider "aws" {
   region  = var.aws_region
-  profile = "default"
+  profile = "my-legacy-sso"
+  # sso_region = var.aws_region
+  # sso_start_url = "https://d-926747ebd4.awsapps.com/start#"
 }
 
 # Create security group for access to EC2 from your Anywhere

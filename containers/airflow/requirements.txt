@@ -7,3 +7,12 @@ pytest==7.0.1
 pytest-mock==3.6.1
 apache-airflow-client==2.3.0
 yoyo-migrations==8.0.0
+pandas
+google-cloud-storage
+google-cloud-core
+pyarrow
+# prefect-gcp[cloud_storage]
+protobuf
+pandas-gbq
+
+
